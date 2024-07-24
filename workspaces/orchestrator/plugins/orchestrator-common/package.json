@@ -12,13 +12,19 @@
   },
   "backstage": {
     "role": "common-library",
-    "supported-versions": "1.26.5"
+    "supported-versions": "1.26.5",
+    "pluginId": "orchestrator",
+    "pluginPackages": [
+      "@backstage-community/plugin-orchestrator",
+      "@backstage-community/plugin-orchestrator-backend",
+      "@backstage-community/plugin-orchestrator-common"
+    ]
   },
   "homepage": "https://red.ht/rhdh",
   "repository": {
     "type": "git",
     "url": "https://github.com/backstage/community-plugins",
-    "directory": "plugins/orchestrator-common"
+    "directory": "workspaces/orchestrator/plugins/orchestrator-common"
   },
   "bugs": "https://github.com/backstage/community-plugins/issues",
   "keywords": [
