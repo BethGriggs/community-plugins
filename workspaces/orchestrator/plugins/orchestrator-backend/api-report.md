@@ -26,5 +26,9 @@ export function createRouter(args: RouterArgs): Promise<express.Router>;
 // @public (undocumented)
 export const dynamicPluginInstaller: BackendDynamicPluginInstaller;
 
+// Warnings were encountered during analysis:
+//
+// /Users/bgriggs/backstage/community-plugins/workspaces/orchestrator/plugins/orchestrator-common/src/models.ts:1:1 - (ae-wrong-input-file-type) Incorrect file type; API Extractor expects to analyze compiler outputs with the .d.ts file extension. Troubleshooting tips: https://api-extractor.com/link/dts-error
+
 // (No @packageDocumentation comment for this package)
 ```

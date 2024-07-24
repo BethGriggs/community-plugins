@@ -1311,6 +1311,7 @@ export type WorkflowSuggestionDTO = {
 // src/generated/client/core/OpenAPI.d.ts:16:5 - (ae-forgotten-export) The symbol "Resolver" needs to be exported by the entry point index.d.ts
 // src/generated/client/core/OpenAPI.d.ts:18:5 - (ae-forgotten-export) The symbol "TResult" needs to be exported by the entry point index.d.ts
 // src/generated/client/core/OpenAPI.d.ts:24:9 - (ae-forgotten-export) The symbol "Interceptors" needs to be exported by the entry point index.d.ts
+// /Users/bgriggs/backstage/community-plugins/workspaces/orchestrator/plugins/orchestrator-common/src/models.ts:1:1 - (ae-wrong-input-file-type) Incorrect file type; API Extractor expects to analyze compiler outputs with the .d.ts file extension. Troubleshooting tips: https://api-extractor.com/link/dts-error
 
 // (No @packageDocumentation comment for this package)
 ```
