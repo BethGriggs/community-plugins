@@ -11,13 +11,19 @@
   },
   "backstage": {
     "role": "frontend-plugin",
-    "supported-versions": "1.26.5"
+    "supported-versions": "1.26.5",
+    "pluginId": "orchestrator",
+    "pluginPackages": [
+      "@backstage-community/plugin-orchestrator",
+      "@backstage-community/plugin-orchestrator-backend",
+      "@backstage-community/plugin-orchestrator-common"
+    ]
   },
   "homepage": "https://github.com/backstage/community-plugins/tree/main/workspaces/orchestrator",
   "repository": {
     "type": "git",
     "url": "https://github.com/backstage/community-plugins",
-    "directory": "workspaces/orchestrator"
+    "directory": "workspaces/orchestrator/plugins/orchestrator"
   },
   "bugs": "https://github.com/backstage/community-plugins",
   "keywords": [
